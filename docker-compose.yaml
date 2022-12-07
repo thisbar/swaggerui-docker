@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  app:
+    image: "node/swaggerui-docker"
+    ports:
+      - "3001:3001"
+    volumes:
+      - "/c/Users/Avalith/Documents/slim-doctrine-swagger-boilerplate/gen/api:/home/node/swagger-ui/public/yaml:consistent"
