@@ -4,7 +4,7 @@
   "description": "",
   "main": "public/index.js",
   "scripts": {
-    "start": "nodemon rs -e yaml public/index.js",
+    "start": "nodemon rs -e yaml --legacy-watch public/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lautaro Aguirre <lautaro.wenceslao@avalith.net>",

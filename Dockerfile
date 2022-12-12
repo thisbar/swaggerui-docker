@@ -9,4 +9,4 @@ USER node
 RUN npm ci
 COPY --chown=node:node . .
 
-CMD npm run start
+CMD ["npm", "start"]
